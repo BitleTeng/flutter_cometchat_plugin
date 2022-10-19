@@ -1,0 +1,43 @@
+PODS:
+  - CometChatCalls (2.2.0):
+    - CometChatWebRTC (= 1.100.0)
+  - CometChatPro (3.0.909)
+  - CometChatWebRTC (1.100.0)
+  - favor_cometchat (0.0.1):
+    - CometChatCalls
+    - CometChatPro
+    - Flutter
+  - Flutter (1.0.0)
+  - permission_handler_apple (9.0.4):
+    - Flutter
+
+DEPENDENCIES:
+  - favor_cometchat (from `.symlinks/plugins/favor_cometchat/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CometChatCalls
+    - CometChatPro
+    - CometChatWebRTC
+
+EXTERNAL SOURCES:
+  favor_cometchat:
+    :path: ".symlinks/plugins/favor_cometchat/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+
+SPEC CHECKSUMS:
+  CometChatCalls: 59ea1af1f263daefa4090de9540e86013fa0962e
+  CometChatPro: 615fb68709ace72c36f5ea0ef0478bd17878cb1c
+  CometChatWebRTC: 0c1389cf9af791ae1c2842080134f09dd6336794
+  favor_cometchat: f57f551a29d411c95aa02ab4e0aad4a502140dcd
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+
+PODFILE CHECKSUM: 496e39e4f67ff0ac1fd2c09256a43a6376e6a1ca
+
+COCOAPODS: 1.11.3
